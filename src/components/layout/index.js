@@ -12,10 +12,10 @@ export default function Layout() {
 
   const {user, isLoading} = useAuth();
 
-  function handleChange(e) {
-    setFile(e.target.files[0]);
-    return 0;
-  }
+  // function handleChange(e) {
+  //   setFile(e.target.files[0]);
+  //   return 0;
+  // }
   
 
   useEffect(() => {

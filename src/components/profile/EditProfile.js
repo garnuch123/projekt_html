@@ -38,10 +38,10 @@ export default function EditProfile({ isOpen, onClose }) {
         <ModalBody>
           <HStack spacing="5">
             <Avatar user={user}  />
-            <FormControl py="4">
+            {/* <FormControl py="4">
               <FormLabel htmlFor="picture">Change avatar</FormLabel>
               <input type="file" accept="image/*" onChange={handleChange} />
-            </FormControl>
+            </FormControl> */}
           </HStack>
           {/* <Button
             loadingText="Uploading"
